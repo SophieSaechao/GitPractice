@@ -15,6 +15,9 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
             Text("My favorite color is purple")
             Text("My favorite color is also blue")
+            Image("kwk")
+                .resizable(resizingMode: .stretch)
+                .aspectRatio(contentMode: .fit)
         }
         .padding()
     }
